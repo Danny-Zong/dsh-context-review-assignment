@@ -1,6 +1,6 @@
 # Context Review for DeepSeek Harness
 
-Prose word count: 1065
+Prose word count: 1070
 
 A third-party plugin for the DeepSeek Harness desktop app. In a long conversation it finds the requirements the user gave earlier, shows each one with the user's original wording, asks when a reply may have dropped or contradicted one, and adds confirmed requirements to the next request. HCI Intelligent Interactive Systems, Assignment 2.
 
@@ -90,6 +90,6 @@ None. The report is submitted separately. No ZIP or API key is needed.
 ## AI assistance
 
 * Codex inspected the Harness interfaces, implemented the plugin (up to version 0.5.1) and built the original synthetic test case, before the real long-conversation run.
-* Claude Code later fixed the bugs I found (versions 0.5.2–0.6.2), drew the system diagram from the implementation, made the storyboards from my descriptions and screenshots, and helped revise my report  for better English expression.
-* I investigated the feasibility of the research and development direction, designed and planned the plugin's form, functions, and operation, chose specifically which changes to make, ran version test in Harness, write the report, and checked the report against the code, the session log and my Assignment 1 references.
+* Claude Code later fixed the bugs I found (versions 0.5.2–0.6.2), drew the system diagram from the implementation, made the storyboards from my descriptions and screenshots, and helped revise my report for better English expression.
+* I investigated the feasibility of the research and development direction, designed and planned the plugin's form, functions, and operation, chose specifically which changes to make, tested each version in Harness, wrote the report, and checked the report against the code, the session log and my Assignment 1 references.
 
