@@ -91,5 +91,5 @@ None. The report is submitted separately. No ZIP or API key is needed.
 
 * Codex inspected the Harness interfaces, implemented the plugin (up to version 0.5.1) and built the original synthetic test case, before the real long-conversation run.
 * Claude Code later fixed the bugs I found (versions 0.5.2–0.6.2), drew the system diagram from the implementation, made the storyboards from my descriptions and screenshots, and helped revise my report  for better English expression.
-* I investigated the feasibility of the research and development, finalized the narrowed direction, designed and planned the plugin's form, functions, and operation, chose specifically which changes to make, ran version test in Harness including do the real long-conversation run, write the report, and checked the report against the code, the session log and my Assignment 1 references.
+* I investigated the feasibility of the research and development direction, designed and planned the plugin's form, functions, and operation, chose specifically which changes to make, ran version test in Harness, write the report, and checked the report against the code, the session log and my Assignment 1 references.
 
