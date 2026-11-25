@@ -1,0 +1,28 @@
+{
+  "name": "dsh-context-review",
+  "version": "0.6.2",
+  "description": "Review earlier task requirements and restore them with confirmation in DeepSeek Harness",
+  "type": "module",
+  "engines": { "dsh": "0.2.1-rc.2" },
+  "exports": {
+    ".": "./host.mjs",
+    "./client": "./client.js",
+    "./package.json": "./package.json"
+  },
+  "files": ["host.mjs", "review.mjs", "context.mjs", "study.mjs", "client.js", "cordis.patch.yml", "README.md"],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-chat",
+        "@deepseek-ai/dsh-client-ui-commands",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-sidebar-right"
+      ]
+    }
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}
